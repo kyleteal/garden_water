@@ -16,7 +16,7 @@ You need to edit lines 4-8 with your WiFi and MQTT Settings.
 
 ## Home Assistant
 
-To control the valve the Arduino communicates to HA via MQTT. Included are the config files once MQTT is setup. There is a switch that controls the opening and closing of the valve, as well as a sensor that receives a signal from the Arduino when the valve is open or closed. 
+To control the valve the Arduino communicates to [HomeAssistant](https://www.home-assistant.io/) via MQTT. Included are the config files once MQTT is setup. There is a switch that controls the opening and closing of the valve, as well as a sensor that receives a signal from the Arduino when the valve is open or closed. 
 
 [How to setup MQTT in HA](https://www.home-assistant.io/integrations/mqtt/)
 
