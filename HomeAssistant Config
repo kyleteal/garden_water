@@ -1,0 +1,19 @@
+sensor:
+  - platform: mqtt
+    state_topic: "homeassistant/sensor/gardenwater"
+    name: Water Valve
+    icon: mdi:valve
+
+switch:
+  - platform: mqtt
+    name: "Water Plants"
+    state_topic: "homeassistant/switch/waterplants"
+    command_topic: "homeassistant/switch/waterplants"
+    payload_on: "ON"
+    payload_off: "OFF"
+    state_on: "ON"
+    state_off: "OFF"
+    optimistic: true
+    qos: 0
+    icon: mdi:sprout
+    retain: false
