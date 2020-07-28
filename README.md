@@ -18,6 +18,11 @@ You need to edit lines 4-8 with your WiFi and MQTT Settings.
 
 To control the valve the Arduino communicates to HA via MQTT. Included are the config files once MQTT is setup. There is a switch that controls the opening and closing of the valve, as well as a sensor that receives a signal from the Arduino when the valve is open or closed. 
 
+[How to setup MQTT in HA](https://www.home-assistant.io/integrations/mqtt/)
+
+I have an MQTT server setup locally, however if you are just getting started I reccomend [CloudMQTT](https://www.cloudmqtt.com/). <br>-- [How to setup an MQTT server quickly](https://www.cloudmqtt.com/docs/index.html)
+<br>-- [How to setup an MQTT locally](https://appcodelabs.com/introduction-to-iot-build-an-mqtt-server-using-raspberry-pi)
+
 ## Water Lines
 
 On the other end of the valve is a simple hose, this is connected to a PVC loop in the garden that has small holes drilled into it. I reccomend drilling only a few holes in the line while the tank is about 1/4 full. Test pressure and add holes as needed to adjust. 
