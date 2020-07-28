@@ -9,7 +9,7 @@ On the solar side there is a 20w solar panel connected to a simple charge contro
 The Arduino is simply a Mosfet connected to pin D6 which opens the valve when a signal is sent.
 
 I used the following design from the web by 
-[Matyn Currey] (http://www.martyncurrey.com/controlling-a-solenoid-valve-from-an-arduino/) for the circuit layout. Simply use the leads from the "Load" output on the solar controller to connect where the power plug is on this circuit.
+[Matyn Currey](http://www.martyncurrey.com/controlling-a-solenoid-valve-from-an-arduino/) for the circuit layout. Simply use the leads from the "Load" output on the solar controller to connect where the power plug is on this circuit.
 
 ## Home Assistant
 
