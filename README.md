@@ -15,6 +15,10 @@ I used the following design from the web by
 
 To control the valve the Arduino communicates to HA via MQTT. Included are the config files once MQTT is setup. There is a switch that controls the opening and closing of the valve, as well as a sensor that receives a signal from the Arduino when the valve is open or closed. 
 
+## Water Lines
+
+On the other end of the valve is a simple hose, this is connected to a PVC loop in the garden that has small holes drilled into it.
+
 ## Components
 
 [Solar Panel](https://www.amazon.com/dp/B0833N3FGH/ref=cm_sw_em_r_mt_dp_U_GGciFbWQ0X8XP)<br>
