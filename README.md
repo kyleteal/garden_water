@@ -1,4 +1,4 @@
-# Garden Watering System
+# Gravity Powered Garden Watering System
 
 This is my garden watering setup. It is a fairly simple design but like all projects you underestimate how much goes into something so simple. Hopefully this tutorial can help someone else create something similar. 
 
@@ -20,12 +20,12 @@ To control the valve the Arduino communicates to HA via MQTT. Included are the c
 
 [How to setup MQTT in HA](https://www.home-assistant.io/integrations/mqtt/)
 
-I have an MQTT server setup locally, however if you are just getting started I reccomend [CloudMQTT](https://www.cloudmqtt.com/). <br>-- [How to setup an MQTT server quickly](https://www.cloudmqtt.com/docs/index.html)
+I have an MQTT server setup locally, however if you are just getting started, I recommend [CloudMQTT](https://www.cloudmqtt.com/). <br>-- [How to setup an MQTT server quickly](https://www.cloudmqtt.com/docs/index.html)
 <br>-- [How to setup an MQTT locally](https://appcodelabs.com/introduction-to-iot-build-an-mqtt-server-using-raspberry-pi)
 
 ## Water Lines
 
-On the other end of the valve is a simple hose, this is connected to a PVC loop in the garden that has small holes drilled into it. I reccomend drilling only a few holes in the line while the tank is about 1/4 full. Test pressure and add holes as needed to adjust. 
+On the other end of the valve is a simple hose, this is connected to a PVC loop in the garden that has small holes drilled into it. I recommend drilling only a few holes in the line while the tank is about 1/4 full. Test pressure and add holes as needed to adjust. 
 
 ## Components
 
@@ -44,7 +44,7 @@ On the other end of the valve is a simple hose, this is connected to a PVC loop 
 
 ## Future Upgrades
 
-The setup is currently a 1/2 inch valve, which is fine but it restricts flow and so the pressure isn’t where I want it. I would reccomend using a 1”. Alternately switching from a solenoid to a ball valve will likely help flow, it will also help with power consumption because the solenoid pulls power the entire time it is open. 
+The setup is currently a 1/2 inch valve, which is fine but it restricts flow and so the pressure isn’t where I want it. I would recommend using a 1”. Alternately switching from a solenoid to a ball valve will likely help flow, it will also help with power consumption because the solenoid pulls power the entire time it is open. 
 
 Up next for the code I will add a timeout that prevents it from being open longer than a set amount of time in case it loses connection to HomeAssistant.
 
